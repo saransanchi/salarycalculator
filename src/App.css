@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display:flex; 
+  flex-direction:row;
 }
 
 .App-logo {
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.SalaryForm{
+  margin-top: 132px;
+  margin-left: 130px;
+  background-color:#FAFAFA;
+  width: 680px;
+  height: 614px;
+  border: groove;
+  border-radius: 15px;
+
+}
+.SalaryDetails{
+  margin-top: 132px;
+  margin-left:10px;
+  background-color: #FFFFFF  ;
+  width: 480px;
+  height: 614px;
+  border: groove;
+  border-radius: 15px;
+
+
+
 }
